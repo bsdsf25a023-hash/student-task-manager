@@ -1,1 +1,1 @@
-Student Task Management Syste
+Student Task Manager
