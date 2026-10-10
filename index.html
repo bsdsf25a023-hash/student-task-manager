@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Task Manager</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="container">
 
         <h1>Student Task Manager</h1>
-        <p class="subtitle">Manage your   daily study tasks</p>
+        <p class="subtitle">Manage your daily study tasks</p>
 
         <div class="task-input">
             <input type="text" id="taskInput" placeholder="Enter your task">
@@ -24,7 +26,11 @@
         </div>
 
     </div>
-
+    <input type="text" id="taskSearch" placeholder="Search tasks..." />
+    <p id="noResults" style="display: none;">
+        No matching tasks found.
+    </p>
     <script src="script.js"></script>
 </body>
+
 </html>

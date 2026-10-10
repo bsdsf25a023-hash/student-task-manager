@@ -1,1 +1,0 @@
-This file is for Git reset practice.
